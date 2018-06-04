@@ -1,0 +1,2176 @@
+fileFormatVersion: 2
+guid: 3e1be9e9e2ba78d45b675f9305b9601a
+timeCreated: 1522207517
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gabumon_0
+    21300002: Gabumon_1
+    21300004: Gabumon_2
+    21300006: Gabumon_3
+    21300008: Gabumon_4
+    21300010: Gabumon_5
+    21300012: Gabumon_6
+    21300014: Gabumon_7
+    21300016: Gabumon_8
+    21300018: Gabumon_9
+    21300020: Gabumon_10
+    21300022: Gabumon_11
+    21300024: Gabumon_12
+    21300026: Gabumon_13
+    21300028: Gabumon_14
+    21300030: Gabumon_15
+    21300032: Gabumon_16
+    21300034: Gabumon_17
+    21300036: Gabumon_18
+    21300038: Gabumon_19
+    21300040: Gabumon_20
+    21300042: Gabumon_21
+    21300044: Gabumon_22
+    21300046: Gabumon_23
+    21300048: Gabumon_24
+    21300050: Gabumon_25
+    21300052: Gabumon_26
+    21300054: Gabumon_27
+    21300056: Gabumon_28
+    21300058: Gabumon_29
+    21300060: Gabumon_30
+    21300062: Gabumon_31
+    21300064: Gabumon_32
+    21300066: Gabumon_33
+    21300068: Gabumon_34
+    21300070: Gabumon_35
+    21300072: Gabumon_36
+    21300074: Gabumon_37
+    21300076: Gabumon_38
+    21300078: Gabumon_39
+    21300080: Gabumon_40
+    21300082: Gabumon_41
+    21300084: Gabumon_42
+    21300086: Gabumon_43
+    21300088: Gabumon_44
+    21300090: Gabumon_45
+    21300092: Gabumon_46
+    21300094: Gabumon_47
+    21300096: Gabumon_48
+    21300098: Gabumon_49
+    21300100: Gabumon_50
+    21300102: Gabumon_51
+    21300104: Gabumon_52
+    21300106: Gabumon_53
+    21300108: Gabumon_54
+    21300110: Gabumon_55
+    21300112: Gabumon_56
+    21300114: Gabumon_57
+    21300116: Gabumon_58
+    21300118: Gabumon_59
+    21300120: Gabumon_60
+    21300122: Gabumon_61
+    21300124: Gabumon_62
+    21300126: Gabumon_63
+    21300128: Gabumon_64
+    21300130: Gabumon_65
+    21300132: Gabumon_66
+    21300134: Gabumon_67
+    21300136: Gabumon_68
+    21300138: Gabumon_69
+    21300140: Gabumon_70
+    21300142: Gabumon_71
+    21300144: Gabumon_72
+    21300146: Gabumon_73
+    21300148: Gabumon_74
+    21300150: Gabumon_75
+    21300152: Gabumon_76
+    21300154: Gabumon_77
+    21300156: Gabumon_78
+    21300158: Gabumon_79
+    21300160: Gabumon_80
+    21300162: Gabumon_81
+    21300164: Gabumon_82
+    21300166: Gabumon_83
+    21300168: Gabumon_84
+    21300170: Gabumon_85
+    21300172: Gabumon_86
+    21300174: Gabumon_87
+    21300176: Gabumon_88
+    21300178: Gabumon_89
+    21300180: Gabumon_90
+    21300182: Gabumon_91
+    21300184: Gabumon_92
+    21300186: Gabumon_93
+    21300188: Gabumon_94
+    21300190: Gabumon_95
+    21300192: Gabumon_96
+    21300194: Gabumon_97
+    21300196: Gabumon_98
+    21300198: Gabumon_99
+    21300200: Gabumon_100
+    21300202: Gabumon_101
+    21300204: Gabumon_102
+    21300206: Gabumon_103
+    21300208: Gabumon_104
+    21300210: Gabumon_105
+    21300212: Gabumon_106
+    21300214: Gabumon_107
+    21300216: Gabumon_108
+    21300218: Gabumon_109
+    21300220: Gabumon_110
+    21300222: Gabumon_111
+    21300224: Gabumon_112
+    21300226: Gabumon_113
+    21300228: Gabumon_114
+    21300230: Gabumon_115
+    21300232: Gabumon_116
+    21300234: Gabumon_117
+    21300236: Gabumon_118
+    21300238: Gabumon_119
+    21300240: Gabumon_120
+    21300242: Gabumon_121
+    21300244: Gabumon_122
+    21300246: Gabumon_123
+    21300248: Gabumon_124
+    21300250: Gabumon_125
+    21300252: Gabumon_126
+    21300254: Gabumon_127
+    21300256: Gabumon_128
+    21300258: Gabumon_129
+    21300260: Gabumon_130
+    21300262: Gabumon_131
+    21300264: Gabumon_132
+    21300266: Gabumon_133
+    21300268: Gabumon_134
+    21300270: Gabumon_135
+    21300272: Gabumon_136
+    21300274: Gabumon_137
+    21300276: Gabumon_138
+    21300278: Gabumon_139
+    21300280: Gabumon_140
+    21300282: Gabumon_141
+    21300284: Gabumon_142
+    21300286: Gabumon_143
+    21300288: Gabumon_144
+    21300290: Gabumon_145
+    21300292: Gabumon_146
+    21300294: Gabumon_147
+    21300296: Gabumon_148
+    21300298: Gabumon_149
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gabumon_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 800
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 800
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 800
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 800
+        width: 29
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 800
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 761
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 762
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 763
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 763
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 711
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 712
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 713
+        width: 37
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 713
+        width: 35
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 714
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 718
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 719
+        width: 35
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 720
+        width: 41
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 716
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 670
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 671
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 672
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 672
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 672
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 673
+        width: 29
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 606
+        width: 62
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 627
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 628
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 629
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_28
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 629
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 629
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 630
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 631
+        width: 45
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 590
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 590
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 598
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 620
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 599
+        width: 37
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_37
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 608
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_38
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 590
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 608
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 607
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_41
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 590
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_42
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 602
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 584
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 541
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_45
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 540
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 541
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 544
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_48
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 543
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 545
+        width: 27
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_50
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 546
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_51
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 544
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_52
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 543
+        width: 29
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 495
+        width: 27
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 495
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_55
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 495
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 495
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_57
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 496
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 452
+        width: 35
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_59
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 452
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_60
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 454
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_61
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 456
+        width: 39
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_62
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 455
+        width: 40
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_63
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 457
+        width: 41
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_64
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 453
+        width: 42
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_65
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 456
+        width: 41
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 405
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 404
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 406
+        width: 34
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_69
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 405
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 405
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_71
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 406
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_72
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 406
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 406
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_74
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 363
+        width: 34
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 363
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_76
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 364
+        width: 39
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_77
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 364
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 367
+        width: 36
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 368
+        width: 36
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 368
+        width: 36
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_81
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 316
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_82
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 317
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_83
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 317
+        width: 33
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_84
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 319
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_85
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 264
+        width: 103
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 263
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_87
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 265
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 267
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_89
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 267
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 267
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_91
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 267
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_92
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 267
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_93
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_94
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 230
+        width: 43
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_95
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_96
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 222
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_97
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 231
+        width: 38
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_98
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 228
+        width: 43
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_99
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 233
+        width: 40
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_100
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 229
+        width: 35
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_101
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 230
+        width: 31
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_102
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 190
+        width: 34
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_103
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 192
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_104
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 40
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 190
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_106
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 191
+        width: 23
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_107
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 204
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_108
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 188
+        width: 4
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_109
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 183
+        width: 5
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_110
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 188
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_111
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 184
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_112
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_113
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 147
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_114
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 147
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_115
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 147
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_116
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 179
+        width: 5
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_117
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 144
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_118
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 146
+        width: 35
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_119
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 146
+        width: 37
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_120
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 145
+        width: 40
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_121
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 147
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_122
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 167
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_123
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 127
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 131
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_125
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 93
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_126
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 93
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_127
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 122
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_128
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 92
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_129
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 94
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_130
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 94
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_131
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 93
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_132
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 93
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_133
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 114
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_134
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 52
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_135
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 52
+        width: 36
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 54
+        width: 44
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_137
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 55
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_138
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 55
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_139
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 55
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_140
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 64
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_141
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_142
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 10
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_143
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 11
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_144
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 13
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_145
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_146
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 15
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_147
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 16
+        width: 41
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_148
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 15
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabumon_149
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 16
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
