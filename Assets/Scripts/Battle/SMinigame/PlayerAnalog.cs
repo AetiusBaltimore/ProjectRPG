@@ -7,9 +7,6 @@ public class PlayerAnalog : MonoBehaviour {
 	
 	private Rigidbody2D pAS; //Player's analog stick Rigidbody
 	private SpriteRenderer SR; //Sprite Renderer for the analog stick
-	private BattlePlayerController BPC; //Controller script for battle player. May not need to be here.
-	
-	private GameObject[] player; //This is a reference to the player as a gameObject but I don't think I need it...?
 	
 	private float radius = 1.3f; //radius of the background of the Analog stick
 	private Vector2 center = new Vector2 (0,0); //center of the play area: "anchors" the analog stick icons
@@ -21,18 +18,10 @@ public class PlayerAnalog : MonoBehaviour {
 	private Vector2 centerToPosition; //holds the value for the subtraction between the center Vector2 and the current position of pAS 
 	private float x,y = 0f; //x and y input of the player's analog stick
 	
-	private bool inZone = false; //Is the character in the Good Spot zone?
-	
 	void Start(){
 		//Sets initial stuff
 		pAS = GetComponent<Rigidbody2D>(); //Gets reference to rigidbody on attached gameObject
 		SR = GetComponent<SpriteRenderer>();
-		
-		//Idk
-		// //player = GameObject.FindGameObjectsWithTag("Player"); 
-		// //print (player);
-		// //BPC = player.GetComponent<BattlePlayerController>(); 
-		// //BPC.SetPlayerPaused(true); 
 	}
 	
 	void Update(){
@@ -67,26 +56,11 @@ public class PlayerAnalog : MonoBehaviour {
 		gameObject.transform.localPosition = center; 
 	}
 	
-	void OnTriggerEnter2D (Collider2D col){
-		//calls this when the game object this is attached to goes through some trigger.
-		//Passes in whatever collider entered the trigger zone
-		if (col.gameObject.tag == "GS"){
-			TurnPlayerRed();
-		}
-	}
-	
-	void OnTriggerExit2D (Collider2D col){
-		//calls this when the game object leaves the trigger zone
-		if (col.gameObject.tag == "GS"){
-			TurnPlayerWhite(); 
-		}
-	}
-	
-	void TurnPlayerRed(){
+	public void TurnPlayerRed(){
 		SR.color = Color.red;
 	}
 	
-	void TurnPlayerWhite(){
+	public void TurnPlayerWhite(){
 		SR.color = Color.white; 
 	}
 }

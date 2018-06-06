@@ -30,6 +30,8 @@ public class BattlePlayerController : MonoBehaviour {
 	private bool isGrounded; //is on a surface they're supposed to be on. 
 	private int airJumps = 1;  
 	private int maxAirJumps = 1;
+	
+	private bool MatingPress; 
 		
 	void Start () {
 		ps = GetComponent<PlayerStats>();
@@ -141,13 +143,12 @@ public class BattlePlayerController : MonoBehaviour {
 		}
 	}
 	
-	public void MP(){
+	public void pMatingPress(){
 		//Activate Mating press
-		ps.PausePlayer(); 
-		playerPaused = true;
-		ResetAnimationTimer(10f); 
-		gameObject.transform.Translate(0,1f,0);
-		anim.SetBool("MatingPress", true); 
+		SetCanMove(false); 
+		MatingPress = true;
+		anim.SetBool("MatingPress", MatingPress);
+		anim.SetBool("Finishing", false);
 	}
 	
 	public void Hitstun(){
@@ -170,11 +171,16 @@ public class BattlePlayerController : MonoBehaviour {
 		start_time = Time.time;
 	}
 	
-	void EndAnimations(){
+	public void EndAnimations(){
 		//this should end all current animations and set player back to a playing state.
-		anim.SetBool("MatingPress", false);
+		if (MatingPress){
+			MatingPress = false;
+			anim.SetBool("MatingPress", MatingPress);
+			anim.SetBool("Finishing", true); 
+		}
 		
-		ps.ResumePlayer();
+		SetPlayerPaused(false);
+		SetCanMove(true);
 	}
 	
 	public bool CheckPlayerPaused(){

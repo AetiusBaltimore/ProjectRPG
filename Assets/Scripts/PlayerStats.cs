@@ -21,6 +21,9 @@ public class PlayerStats : MonoBehaviour {
 	public int health;
 	public int maxHealth;
 	
+	public float lust;
+	public float maxLust; 
+	
 	private float blockReduction;
 	
 	void Start () {
@@ -65,9 +68,7 @@ public class PlayerStats : MonoBehaviour {
 	}
 	
 	public void ResumePlayer(){
-		//playercol.enabled = true;
-		//playerRB.bodyType = RigidbodyType2D.Dynamic;
-		BPC.SetPlayerPaused(false); 
+		BPC.EndAnimations();
 	}
 	
 	public void BLDamage (float DamageIn){

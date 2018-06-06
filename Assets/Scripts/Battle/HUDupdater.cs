@@ -10,10 +10,10 @@ public class HUDupdater : MonoBehaviour {
 	public EnemyStats es;
 	
 	private float pBL_fill;
-	private float pExp_fill;
+	private float pLu_fill;
 	
 	private float eBL_fill;
-	private float eExp_fill;
+	private float eLu_fill;
 	
 	public Image[] pHUD_hearts;
 	public Image[] eHUD_hearts;
@@ -21,22 +21,51 @@ public class HUDupdater : MonoBehaviour {
 	public Sprite[] heartSprites; 
 	
 	[SerializeField]
-	private Image pEXP_bar, pBL_bar, eEXP_bar, eBL_bar; 
+	private Image pLu_bar, pBL_bar, eLu_bar, eBL_bar; 
 	
-	public float pMax_BL, pBL_Value, eMax_BL, eBL_Value;
+	public float pMax_BL, pBL_Value, pMax_Lu, pLu_Value;
+	public float eMax_BL, eBL_Value, eMax_Lu, eLu_Value;
 	public int pHP_Value, pMax_HP, eHP_Value, eMax_HP;  	
+	
+	private float stageTimer;
+	private float stageTimerRate; 
+	private float stageTimerFill; 
+	private float stageTimerMax; 
+	private float stageTimerIncreasePerStage; 
+	
+	public Image stageTimerBar;
+	public GameObject stageTimerBack;
+	public GameObject PlayerSpace;
+	public GameObject EnemySpace;
+	
+	private int stageCount;
+	private int stageCountMax; 
+	
+	private bool minigameActive;
 	
 	// Use this for initialization
 	void Start () {
 		pMax_BL = ps.maxBalance;
 		pMax_HP = ps.maxHealth;
+		
 		pBL_bar.fillAmount = 1.0f;
-		pEXP_bar.fillAmount = 0f;
+		pLu_bar.fillAmount = 0f;
 		
 		eMax_BL = es.maxBalance;
 		eMax_HP = es.maxHealth;
+		
 		eBL_bar.fillAmount = 1.0f;
-		eEXP_bar.fillAmount = 0f;
+		eLu_bar.fillAmount = 0f;
+		
+		stageCount = 0;
+		stageCountMax = 3; 
+		
+		stageTimerBar.fillAmount = 0f; 
+		stageTimerMax = 1f;
+		stageTimerRate = .005f;
+		stageTimerIncreasePerStage = .002f;
+
+		SetMinigameStatus(false); 
 	}
 	
 	// Update is called once per frame
@@ -48,6 +77,41 @@ public class HUDupdater : MonoBehaviour {
 		UpdatePlHealth();
 		UpdateENHealth();
 		
+		
+		if (minigameActive){
+			MinigameMain();
+		}
+		
+	}
+	
+	void MinigameMain(){
+	//decisions for minigame. Meant to be run every frame
+		if (stageTimer >= stageTimerMax){
+			IncreaseStageCount();
+			if (stageCount >= stageCountMax){
+				SetMinigameStatus(false);
+				ps.ResumePlayer();
+			}
+		} else {
+			UpdateStageTimer();
+		} 
+		UpdateELust();
+	}
+	
+	void UpdateStageTimer(){
+		stageTimer += stageTimerRate; 
+		stageTimerBar.fillAmount = stageTimer; 
+	}
+	
+	void IncreaseStageTimerRate (float Val){
+		stageTimerRate += Val;
+	}
+	
+	void IncreaseStageCount(){
+		stageCount++;
+		print ("Stage: " + stageCount); 
+		stageTimer = 0f; 
+		IncreaseStageTimerRate(stageTimerIncreasePerStage); 
 	}
 	
 	void UpdateBLbar (){
@@ -100,5 +164,18 @@ public class HUDupdater : MonoBehaviour {
 				eHUD_hearts[i].enabled = false; 
 			}
 		}
+	}
+	
+	public void SetMinigameStatus(bool status){
+		stageTimerBack.SetActive(status); 
+		PlayerSpace.SetActive(status);
+		EnemySpace.SetActive(status); 
+		
+		minigameActive = status;
+	}
+	
+	void UpdateELust(){
+		eLu_Value = (es.lust/eMax_Lu);
+		eLu_bar.fillAmount = eLu_Value;		
 	}
 }
