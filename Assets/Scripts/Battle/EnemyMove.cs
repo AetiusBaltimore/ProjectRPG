@@ -109,11 +109,8 @@ public class EnemyMove : MonoBehaviour {
 		}
 	}
 	
-	public void MP(){
-		//Debug.Log ("Running Mating Press"); 
-		ResetAnimationTimer(10f);
+	public void eMatingPress(){
 		fucked = true; 
-		//anim.SetBool("MatingPress", true);
 		SR.enabled = false; 
 	}
 	
@@ -157,26 +154,21 @@ public class EnemyMove : MonoBehaviour {
 	}
 	
 	void EndAnimations(){
-		staggered = false;
+		if (staggered){
+			staggered = false;
+		}
 		
 		if (fucked){
-			UnloadSM(); 
+			fucked = false;
+			SR.enabled = true; 
 		}
 		
-		fucked = false;
-		anim.SetBool("MatingPress", false);
 		anim.SetBool("staggered", staggered);
 		anim.SetBool("stunned", false); 
+		
 		ResumeEnemy();
-		if (es.CurrentHealth() <= 0){
-			es.Die();
-		}
 	}
-	
-	void UnloadSM(){
-		SceneManager.UnloadSceneAsync("SMinigame"); 
-	}
-	
+
 	public void PauseEnemy(){
 		boxco.enabled = false;
 		enemyRB.bodyType = RigidbodyType2D.Static;
