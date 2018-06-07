@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="base" tilewidth="16" tileheight="16" tilecount="1440" columns="40">
- <image source="../Graphics/Overworld.png" width="640" height="576"/>
+ <image source="../Graphics/Tilesets/Overworld.png" width="640" height="576"/>
  <terraintypes>
   <terrain name="ThickerGrass" tile="0"/>
   <terrain name="Dirt" tile="1374"/>
