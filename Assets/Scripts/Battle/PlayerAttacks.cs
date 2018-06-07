@@ -8,7 +8,7 @@ public class PlayerAttacks : MonoBehaviour {
 	
 	private Animator anim;
 	
-	private BattlePlayerController MovementController; 
+	private BattlePlayerController BPC; 
 	
 	private bool attacking = false;
 	
@@ -23,7 +23,7 @@ public class PlayerAttacks : MonoBehaviour {
 	
 	// Use this for initialization
 	void Awake () {
-		MovementController = gameObject.GetComponent<BattlePlayerController>(); 
+		BPC = gameObject.GetComponent<BattlePlayerController>(); 
 		anim = gameObject.GetComponent<Animator> ();
 		attackNTrigger.enabled = false;
 		attackSTrigger.enabled = false;
@@ -55,8 +55,7 @@ public class PlayerAttacks : MonoBehaviour {
 	}
 	
 	void NPunch (){
-		
-		if (MovementController.ReturnLastMoveX() >= .1f){
+		if (BPC.ReturnLastMoveX() >= .1f){
 			attackNTrigger.offset = new Vector2 (.6f, 0); 
 		} else {
 			attackNTrigger.offset = new Vector2 (-.6f, 0); 
@@ -69,6 +68,12 @@ public class PlayerAttacks : MonoBehaviour {
 	}
 	
 	void SGrab (){
+		if (BPC.ReturnLastMoveX() >= .1f){
+			attackSTrigger.offset = new Vector2 (.6f, 0);
+		} else {
+			attackSTrigger.offset = new Vector2 (-.6f, 0); 
+		}
+		
 		SG = true;
 		attacking = true;
 		attackTimer = attackCD;
