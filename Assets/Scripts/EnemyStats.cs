@@ -8,7 +8,7 @@ public class EnemyStats : MonoBehaviour {
 	public BattlePlayerController BPC; //reference to player movement controller
 	public HUDupdater HUD; 
 		
-	private EnemyMove MS;
+	private EnemyMove enemyMove;
 	private Rigidbody2D rb; 
 
 	public float maxBalance;
@@ -24,7 +24,7 @@ public class EnemyStats : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		MS = GetComponent<EnemyMove>(); 
+		enemyMove = GetComponent<EnemyMove>(); 
 		rb = GetComponent<Rigidbody2D>();
 		
 		maxBalance = 100f;
@@ -49,13 +49,13 @@ public class EnemyStats : MonoBehaviour {
 			Unbalanced();
 		}
 		
-		if (balance < maxBalance){
-			if (!MS.StaggeredStatus()){
-				RestoreBalance(.1f);
-			} else {
-				RestoreBalance(.2f);
-			}
-		}
+		// if (balance < maxBalance){
+			// if (!enemyMove.StaggeredStatus()){
+				// RestoreBalance(.1f);
+			// } else {
+				// RestoreBalance(.2f);
+			// }
+		// }
 	}
 	
 	public void Die(){
@@ -63,16 +63,17 @@ public class EnemyStats : MonoBehaviour {
 		SceneManager.LoadScene("Test");
 	}
 	
-	public void NDamage (float damageIn){
+	public void BLDamage (float damageIn){
 		///This is Balance damage from normal attacks
-		if (MS.blocking){
+		if (enemyMove.Blocking){
 			print("I blocked!"); 
-			damageIn = damageIn - (damageIn - blockReduction);
+			damageIn = damageIn - (damageIn * blockReduction);
 		}
 		
+		print(damageIn); 
 		balance -= damageIn;
 		HUD.eBL_Value = balance;
-		MS.HitStun();
+		enemyMove.StartCoroutine("HitStun"); 
 	}
 	
 	public void LDamage (float damageIn){
@@ -81,38 +82,35 @@ public class EnemyStats : MonoBehaviour {
 	}
 	
 	public void CheckGrabSuccessful(){
-		if (MS.staggered){
-			MS.eMatingPress();
+		if (enemyMove.Staggered){
+			enemyMove.pMatingPress();
 			BPC.pMatingPress();
 			HUD.SetMinigameStatus(true); 
 		} else {
 			print ("Gabumon resisted!"); 
-			MS.Block();
-			BPC.Hitstun();
-			MS.UnBlock();
 		}
 	}
 	
 	public void SDamage (int damageIn){
 		//This is HP damage. Also activated Mating Press and the Sex minigame for testing purposes only.
-		// if (MS.staggered){
+		// if (enemyMove.staggered){
 			// health -= damageIn; 
 			// HUD.eHP_Value = health; 
-			// MS.MatingPress();
+			// enemyMove.MatingPress();
 			// BPC.MatingPress();
 			// HUD.SetMinigameStatus(true); 
 		// } else {
 			// //haven't tested this yet.
 			// print ("Gabumon resisted!"); 
-			// MS.Block();
+			// enemyMove.Block();
 			// BPC.Hitstun();
-			// MS.UnBlock();
+			// enemyMove.UnBlock();
 		// }
 	}
 	
 	void Unbalanced(){
 		//"sends message" to movescript that the player is staggered now
-		MS.Staggered();
+		enemyMove.Staggered = true; 
 	}
 	
 	void RestoreBalance(float amountToRestore){

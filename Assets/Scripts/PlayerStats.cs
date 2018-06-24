@@ -24,7 +24,7 @@ public class PlayerStats : MonoBehaviour {
 	public float lust;
 	public float maxLust; 
 	
-	private float blockReduction;
+	private float blockReduction; 
 	
 	void Start () {
 		playercol = GetComponent<BoxCollider2D> ();
@@ -62,20 +62,23 @@ public class PlayerStats : MonoBehaviour {
 	public void PausePlayer(){
 		//Send message to BattlePlayerController script for the player to be paused. It may or may not need more code to complete that
 		pausedStatus = true; 
-		BPC.SetPlayerPaused(pausedStatus);  
+		//BPC.SetPlayerPaused(pausedStatus);  
 		//playercol.enabled = false; 
 		//playerRB.bodyType = RigidbodyType2D.Static; 
 	}
 	
 	public void ResumePlayer(){
-		BPC.EndAnimations();
 	}
 	
 	public void BLDamage (float DamageIn){
+		print("Player took "+DamageIn+" damage"); 
+		
 		//Balance damage calculation. Called from enemy hitbox
-		if (BPC.ReturnBlockStatus()){
+		if (BPC.Blocking){
 			DamageIn = DamageIn - (DamageIn*blockReduction);
 		}
+		
+		BPC.StartTimedFunction("Hitstun"); 
 		balance -= DamageIn; 
 		HUD.pBL_Value = balance;	
 	}
